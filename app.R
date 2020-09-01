@@ -111,8 +111,6 @@ server <- function(input, output) {
     datatable(df, rownames = F)
   })
   
-  
-  
 } # End of server
 
 # Run the application 

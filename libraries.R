@@ -3,7 +3,7 @@
 # To learn more about any particular library, type `?<name>` in the console
 # Shiny
 library(shinydashboard)
-
+library(shinyWidgets)
 # Data
 library(tidyverse) # data manipulation 
 
