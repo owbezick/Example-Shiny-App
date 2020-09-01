@@ -74,7 +74,8 @@ server <- function(input, output) {
       e_line(z) %>% 
       e_area(w) %>% 
       e_title("Line and Area Chart") %>%
-      e_tooltip()
+      e_tooltip() %>%
+      e_theme('westeros')
   })
   
   # Graph two output
@@ -87,7 +88,8 @@ server <- function(input, output) {
       e_visual_map(z) %>% # scale color
       e_legend(FALSE)  %>% # hide legend
       e_title("Scatter with Scale & Effect")%>%
-      e_tooltip()
+      e_tooltip()%>%
+      e_theme('westeros')
   })
   
   # Graph three output
@@ -102,7 +104,8 @@ server <- function(input, output) {
       e_bar(y, coord_system = "polar") %>% 
       e_scatter(z, coord_system = "polar") %>% 
       e_title("Radial Chart")%>%
-      e_tooltip()
+      e_tooltip()%>%
+      e_theme('westeros')
   })
   
   # DT output
