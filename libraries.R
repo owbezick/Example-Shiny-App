@@ -1,21 +1,12 @@
 # Libraries 
-
+# These are some helpful libraries for R in general and creating shiny applications
+# To learn more about any particular library, type `?<name>` in the console
 # Shiny
 library(shinydashboard)
-library(shinydashboardPlus)
-library(shinyWidgets)
 
 # Data
-library(DT)
-library(dplyr)
-library(lubridate)
-library(openxlsx)
-library(tidyverse)
-library(readxl)
+library(tidyverse) # data manipulation 
 
 # Viz
-library(echarts4r)
-
-# SQL Drivers
-library(odbc)
-library(DBI)
+library(DT) # data table outputs
+library(echarts4r) # graphics library
